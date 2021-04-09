@@ -1,2 +1,3 @@
 Spotify API practice
-Study from codingforentrepreneurs(GITHUB)
+Got authorization from Spotify developer webpage*
+Study source from codingforentrepreneurs(GITHUB)
