@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('OpenCV/dev/Photos/dog1.jpg')
+img = cv.imread('OpenCV/dev/OpenCV/Photos/dog1.jpg')
 cv.imshow('Dog', img)
 
 def rescaleFrame(frame, scale=0.50):
@@ -17,7 +17,7 @@ def changeResolution(width, height):
     capture.set(3, width)
     capture.set(4, height)
 
-capture = cv.VideoCapture('OpenCV/dev/Videos/dog_video1.mp4')
+capture = cv.VideoCapture('OpenCV/dev/OpenCV/Videos/dog_video1.mp4')
 
 while True:
     isTrue, frame = capture.read()

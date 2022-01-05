@@ -4,7 +4,7 @@ import numpy as np
 blankImage = np.zeros((500,500,3), dtype = 'uint8')
 cv.imshow('Blank', blankImage)
 
-img = cv.imread('Photos/dog1.jpg')
+img = cv.imread('OpenCV/dev/OpenCV/Photos/dog1.jpg')
 cv.imshow('Dog', img)
 
 # 1. paint the image a certain color
